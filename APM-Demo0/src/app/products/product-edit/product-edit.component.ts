@@ -77,7 +77,6 @@ export class ProductEditComponent implements OnInit, OnDestroy {
 	}
 
 	ngOnDestroy(): void {
-		this.sub.unsubscribe();
 	}
 
 	// Also validate on blur
